@@ -6,18 +6,40 @@ body{
     margin: 0; padding: 0;
     background-color: white;
 }
-h1{
-    font-family: sans-serif;
-    font-size:1.5em;
-    letter-spacing: 1.6px;
-    text-align: center;
+header img {
+    max-width: 30%;
+
 }
+//*NAV style*//
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+h1{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size:2m;
+    color: white;
+    letter-spacing: 1.6px;    
+}
+
 h2{
     font-family: sans-serif;
     font-size: 1em;
-    font-style: oblique;
     text-align: center;    
 }
+
 ul{
  display:flex;
  justify-content: flex-end;
@@ -31,24 +53,24 @@ li{
     text-transform: uppercase;
     font-size: 1em;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
-img {
+
+img{
     width: 100%;
     height:auto;
 }
-.logo{
-    max-width: 40%;
-    height:auto;
-}
-p{
+
+p {
     font-family: sans-serif;
     font-style: italic;
     text-align: center;
 }
-section{
+
+section {
     position:relative;
     width:100%;
     font-family: sans-serif;
@@ -57,50 +79,44 @@ section{
     justify-content: center;
     align-items: center;
 }
-section img{
-    width: 100%;
-    height: auto;
-}
+
 section p {
     position:absolute;
-    top: 40%;
+    top: 43%;
     color: white;
-    width:31.25em;
+    font-size: 0.8em;
+    width:25em;
     overflow:hidden;
-}
-section h1{
-    position:absolute;
-    top:30%;
-    color:white;
-    font-weight: bold;
-    font-size: 3em;
 }
 section h2{
     position: absolute;
-    top:30%;
+    font-size: .8em;
+    letter-spacing: 1.6px;
+    top:20%;
     color:#fc7170;
     text-transform: uppercase;
+    font-weight: 600;
 }
 section button{
     position: absolute;
-    top: 55%;
+    top:75%;
     left: 50%;
     transform:translate(-50%,-50%);
     border:none;
-    padding: 1.375em 3.3125em 1.375em 1.5625em;
+    padding: 1.775em 2.3125em 1.775em 2.3125em;
     font-family: sans-serif;
-    font-size: .8em;
+    font-size: .5em;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 0.078125em;
     color: white;
-    font-weight:300;
     border-radius: 6.25em;
     background-color:#fc7170; 
     cursor:pointer;
     box-sizing: border-box;
 }
-section button:hover {
-    padding: 1.375em 3.75em 1.375em 2em;
-    transition-duration: 1s 1s;
-    transition-delay: 0.2s,0s;
+section button:hover{
+    padding: 1.775em 3em 1.775em 3em;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s o.2s;
 }
