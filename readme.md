@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-Verder met uitwerking van de eerste pagina, hulp ingeschakkeld, nog niet tevreden, loop een beetje achter-
 
 
 
