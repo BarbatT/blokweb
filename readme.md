@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--Verder met uitwerking van de eerste pagina, hulp ingeschakkeld, nog niet tevreden, loop een beetje achter-
+-Verder gegaan met uitwerking van de eerste pagina. Ik heb hulp van de student assistent Sam ingeschakeld voor het maken van een hamburger menu en carousel. Wat ik merk is dat ik een beetje achter loop en dat ik er meer tijd aan moet besteden. Als ik er mee bezig ben dan lukt het wel en als ik een tijdtje niks heb gedaan dan heb ik er moeite mee om er in te komen.-
 
 
 
@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--Had een beetje problemen met css, javascript is nog niet gelukt en de website zit er niet zo goed uit op mobiel-
+-Had een beetje problemen met css, javascript is nog niet gelukt en de website zit er niet zo goed uit. -
 
 **Screenshot(s):**
 
@@ -64,8 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+
