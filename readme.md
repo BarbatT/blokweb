@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--Verder gegaan met uitwerking van de eerste pagina. Ik heb hulp van de student assistent Sam ingeschakeld voor het maken van een hamburger menu en carousel. Wat ik merk is dat ik een beetje achter loop en dat ik er meer tijd aan moet besteden. Als ik er mee bezig ben dan lukt het wel en als ik een tijdtje niks heb gedaan dan heb ik er moeite mee om er in te komen.-
+-Verder gegaan met uitwerking van de eerste pagina. Ik heb hulp van de student assistent Sam ingeschakeld voor het maken van een hamburger menu (nog niet gemaakt) en carousel (in css gemaakt met overflow-x). Wat ik merk is dat ik een beetje achter loop en dat ik er meer tijd aan moet besteden. Als ik er mee bezig ben dan lukt het wel en als ik een tijdtje niks heb gedaan dan heb ik er moeite mee om er in te komen.-
 
 
 
@@ -46,7 +46,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-Carrousel (css/html of js, beste optie?)
+-Css image slider animation
+-Text responsive maken- fluid typografie of mediaQueries?
 
 ### Verslag van meeting
 
