@@ -32,13 +32,13 @@ main nav ul li{
     text-transform: uppercase;
     font-style: normal;
 }
-main header div {
+/*main header div {
     padding: 3em;
     margin-left: auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 @media (min-width:48em){
     main header div {
     padding: 3em;
