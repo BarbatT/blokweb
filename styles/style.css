@@ -104,7 +104,7 @@ img{
     bottom: 0%; left: 50%;
     transform:translate(-50%,-50%);
     border:none;
-    padding: 1.775em 2.3125em 1.775em 2.3125em;
+    padding: 0.975em 2.3125em 0.975em 2.3125em;
     font-family: sans-serif;
     font-size: .65em;
     text-transform: uppercase;
