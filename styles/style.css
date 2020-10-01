@@ -1,0 +1,290 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+body{
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+
+main{
+    position:relative;
+    font-family: sans-serif;
+}
+
+//*NAV style*//
+main header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+main nav img{
+    width:20%;
+}
+main nav ul{
+    font-size: .8em;
+    display: flex;
+    justify-content: flex-end;
+}
+main nav ul li{
+    text-transform: uppercase;
+    font-style: normal;
+}
+main header div {
+    padding: 3em;
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width:48em){
+    main header div {
+    padding: 3em;
+    margin-left: 10em; margin-right: 10em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+h1{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:1.5em;
+    color: white;
+    letter-spacing: 1.6px;    
+}
+img{
+    width: 100%;
+    height:auto;
+}
+
+/*News style*/
+
+.news {
+    position:relative;
+    width:100%;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news img{
+    height: 100%;
+    object-fit: cover;
+}
+.news p {
+    position:absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:.8em;
+    font-style: italic;
+    line-height: 1em;
+    color: white;
+    letter-spacing: 1.6px;
+}
+.news h2{
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:0.8em;
+    color: white;
+    letter-spacing: 1.6px;
+    color:#fc7170;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.news button{
+    position: absolute;
+    bottom: 20%; left: 50%;
+    transform:translate(-50%,-50%);
+    border:none;
+    padding: 1.775em 2.3125em 1.775em 2.3125em;
+    font-family: sans-serif;
+    font-size: .65em;
+    text-transform: uppercase;
+    letter-spacing: 0.078125em;
+    color: white;
+    border-radius: 6.25em;
+    background-color:#fc7170; 
+    cursor:pointer;
+    letter-spacing:.2em;
+}
+@media (min-width:48em) {
+    .news {
+        padding:0;
+    }
+    .news img{
+        height: 50em;
+    }
+}
+
+/*introduction */
+
+.introduction article{
+    position:relative;
+    width:100%;
+    padding:1em 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introduction article img{
+    height: 100%;
+    object-fit: cover;
+}
+.introduction h2 {
+    position: absolute;
+    top:15%;
+    font-size:1em;
+    color:white;
+    font-weight:600;
+}
+.introduction p{
+    position: absolute;
+    padding: 1em;
+    top:25%;
+    font-size: 0.8em;
+    color: white;
+}
+.introduction button{
+    position: absolute;
+    bottom:20%;
+    border:none;
+    padding: 1.775em 1.3125em 1.775em 1.3125em;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 0.078125em;
+    color: white;
+    border-radius: 6.25em;
+    background-color:#fc7170;
+    letter-spacing:.2em;
+}
+
+/*media introduction*/
+
+@media (min-width:48em) {
+    
+.introduction {
+ font-size:0.8em;
+ padding: 0 2em;
+ display:grid;
+ grid-template-columns:1fr 1fr;
+}
+.introduction img{
+    padding:1em 1em;
+    }
+    .introduction button{
+    position: absolute;
+    bottom:30%;
+    border:none;
+    padding: 1.775em 2.3125em 1.775em 2.3125em;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 0.078125em;
+    color: white;
+    border-radius: 6.25em;
+    background-color:#fc7170;
+    letter-spacing:.2em;
+    }
+}
+
+/*locaties style*/
+.locaties {
+    margin:auto;
+    padding: 2em 2em;
+}
+.locaties > ul{
+    display:flex;
+    overflow-x:scroll;
+    padding:0;
+}
+.locaties ul li {
+    margin:auto;
+    margin-left:1em;
+}
+.locaties ul li img{
+    height:100%;
+    width:20em;
+    object-fit:cover;
+}
+
+/*lessen style*/
+.lessen {
+    margin: auto;
+    padding: 2em 2em;
+    background-color:#f9fafa;
+}
+.lessen > ul{
+    display:flex;
+    overflow-x:scroll;
+    padding:0;
+}
+.lessen ul li {
+    margin:auto;
+    margin-left:1em;
+}
+.lessen ul li img{
+    height:80%;
+    width:20em;
+    object-fit:cover;
+}
+
+/*leraren style*/
+
+.leraren > ul{
+    display:flex;
+    overflow-x:scroll;
+    padding:0;
+}
+.leraren ul li {
+    margin:auto;
+    margin-left:1em;
+}
+.leraren ul li img{
+    height:80%;
+    width:20em;
+    object-fit:cover;
+}
+
+/*algemeen style*/
+
+button:hover{
+    padding: 1.775em 3em 1.775em 3em;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s o.2s;
+}
+h2{
+    font-size: 1em;
+    text-align: center;    
+}
+
+li{
+    list-style: none;
+    margin-right: 1em;
+    margin-top: 2em;
+    text-align: center;
+    font-size: .8 em;
+    font-style: italic;
+    font-weight: 100;
+    color: #696969;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
