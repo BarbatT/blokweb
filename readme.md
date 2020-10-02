@@ -46,9 +46,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--Carrousel (css/html of js, beste optie?)
--Css image slider animation
--Text responsive maken- fluid typografie of mediaQueries?
+Carrousel (css/html of js, beste optie?) 
+Css image slider animation 
+Text responsive maken- fluid typografie of @mediaQueries? 
+:hover bug (Jelle)
+slider van tekst en dingen toevoegen in winkelmandje (Ysabella)
 
 ### Verslag van meeting
 
