@@ -7,8 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. delightyoga.com
-2. https://css-tricks.com/snippets/css/fluid-typography/
-3. 
+2. https://css-tricks.com/
+3. https://css-tricks.com/snippets/css/fluid-typography/
 
 
 
