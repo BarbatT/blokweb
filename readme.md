@@ -24,8 +24,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+-Verder gegaan met uitwerking van de eerste pagina en begin gemaakt van de tweede pagina. Deze week heb ik een paar keer mijn css bestand helemaal verpest en dus meer bezig geweest om alles weer werkend en netjes te krijgen. Door mijn achterstand van 3 jaar, ben ik ook terug gaan kijken naar internetstandaarden van vorig jaar. Omdat ik Inleiding programmeren niet heb gehaald, worstel ik met het javaScript gedeelte van het vak.
+In het algemeen was dit een leerzame week alleen ben ik niet zo ver gekomen met mijn website als ik gepland had. Het wordt druk in herfstreces. 
 
 
 ## Voortgang 2 (week 5)
@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--Had een beetje problemen met css, javascript is nog niet gelukt en de website zit er niet zo goed uit. -
+-Had een beetje problemen met css, javascript is nog niet gelukt en de website zit er niet zo goed uit.
 
 **Screenshot(s):**
 
