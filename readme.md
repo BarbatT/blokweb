@@ -8,13 +8,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. delightyoga.com
 2. https://css-tricks.com/
-3. https://css-tricks.com/snippets/css/fluid-typography/
+3. Sam
+4. codepen.io - oefeningen 
+5. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
 
 
 
 ## Eindgesprek (week 7/8)
+Het begin ging soepel. Zoals eerder vermeld, heb ik een tijdje pauze gehad van de opleiding en aangezien ik in die periode niks met html of css heb gedaan, was ik positief verrast hoe snel ik het heb opgepikt. De basiskennis was er nog gelukkig.
+Naarmate we verder gingen, merkte ik dat ik toch veel kennis mis. Dat heeft ervoor gezorgd dat ik steeds achter liep en ik moest steeds terug om mijn kennis te verversen. Tijdens de laatste week heb ik meerdere malen mijn css verpest. Gelukkig had ik een backup gemaakt op Github en heb ik hulp van Sam gekregen. 
+In het algemeen ben ik tevreden hoe het is gegaan omdat ik heb geprobeerd om alles zelf uit te zoeken en veel dingen die ik wilde maken zijn gelukt. 
+Wat ik ook weet is dat ik veel beter kan en dat ik waarschijnlijk veel fouten heb gemaakt, vooral met JavaScript. 
 
--dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
