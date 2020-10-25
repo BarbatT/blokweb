@@ -23,8 +23,6 @@ Wat ik ook weet is dat ik veel beter kan en dat ik waarschijnlijk veel fouten he
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
 
 
 ## Voortgang 3 (week 6)
