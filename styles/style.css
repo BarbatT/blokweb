@@ -14,50 +14,30 @@ main{
     font-family: sans-serif;
 }
 
-//*NAV style*//
-header{
+/*NAV style*/
+nav {
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
-    padding-bottom: 3em;
+    align-items:center;
+    padding: 2em;
 }
-header nav img{
-    width:40%;
-    margin-left: 2em;
+nav img:first-of-type {
+    width: 40%;
+}
+nav ul {
+    display:none;
+}
+nav img:last-of-type {
+    width: 10%;
+    background-color: white;
 }
 
-header nav ul{
-    margin-left: 4em;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-header nav ul li{
-    font-size:.5em;
-    text-align: center;
-    text-transform: uppercase;
-    font-style: normal;
-}
-@media (min-width:60em){
-    header {
-    padding: 2em;
-    margin-left: 8em;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-    nav ul{
-    font-size: .8em;
-    display: flex;
-    justify-content: flex-end;
-}
-}
 h1{
     position:absolute;
-    top: 30%;
+    top: 7vh;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:1.5em;
+    font-size:1.3em;
     color: white;
     letter-spacing: 1.6px;    
 }
@@ -66,6 +46,19 @@ img{
     height:auto;
 }
 
+@media (min-width:48em){
+    nav img:last-of-type {
+        display: none;
+    }
+    nav ul {
+    font-size: 0.8em;
+    display: flex;
+}
+nav ul li{
+    text-transform: uppercase;
+    font-style: normal;
+}
+}
 /*News style*/
 
 .news {
@@ -83,17 +76,16 @@ img{
 }
 .news p {
     position:absolute;
-    top: 50%; left: 50%;
+    top:20vh; left: 50%;
     transform: translate(-50%, -50%);
     font-size:.8em;
     font-style: italic;
     line-height: 1em;
     color: white;
-    letter-spacing: .1em;
 }
 .news h2{
     position:absolute;
-    top: 28%;
+    top: 5vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .8em;
@@ -103,9 +95,9 @@ img{
     text-transform: uppercase;
     font-weight: 700;
 }
-.news button{
+.news button {
     position: absolute;
-    bottom: 0%; left: 50%;
+    top:30vh; left: 50%;
     transform:translate(-50%,-50%);
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
@@ -119,12 +111,31 @@ img{
     cursor:pointer;
     letter-spacing:.2em;
 }
+
+/*media news*/
+
 @media (min-width:48em) {
     .news {
         padding:0;
+        font-size:1.5em;
+    }
+    .news h2 {
+        top:10vh;
+    }
+    h1 {
+        top:20vh;
+        font-size: 3em;
+    }
+    .news p{
+        top:50vh;
+        font-size: 1em;
+        line-height: 2em;
     }
     .news img{
         height: 50em;
+    }
+    .news button {
+        top:80vh;
     }
 }
 
@@ -155,17 +166,18 @@ img{
     padding: 1em;
     top:30%;
     font-size: 1em;
-    line-height: 2em;
+    line-height: 1em;
     outline-width:.5em;
     color: white;
 }
-.introduction button{
+.introduction button,
+.introduction a {
     position: absolute;
     bottom:20%;
     border:none;
-    padding: 0.975em 1.3125em 0.975em 1.3125em;
+    padding:1.775em 2.3125em 1.775em 2.3125em;
     font-family: sans-serif;
-    font-size: .8em;
+    font-size: .6em;
     text-transform: uppercase;
     letter-spacing: 0.078125em;
     color: white;
@@ -176,24 +188,29 @@ img{
 
 /*media introduction*/
 
-@media (min-width:48em) {
+@media (min-width:60em) {
     
-.introduction {
- font-size:0.8em;
- padding: 0 2em;
+.introduction,
+.new main section:nth-of-type(3) {
+ padding: 5em 10em;
  display:grid;
  grid-template-columns:1fr 1fr;
 }
-.introduction img{
+.introduction h2 {
+        font-size: 1.5em;
+    }
+.introduction img,
+.new main section:nth-of-type(3) {
     padding:1em 1em;
     }
-    .introduction button{
+.introduction button,
+.introduction a{
     position: absolute;
     bottom:30%;
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
     font-family: sans-serif;
-    font-size: .65em;
+    font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.078125em;
     color: white;
@@ -204,112 +221,111 @@ img{
 }
 
 /*locaties style*/
+
 .locaties {
-    padding: 20px;
     margin:auto;
-    width:80%;
+    width:100%;
 }
+
 .locaties > ul{
     display:flex;
     overflow-x:scroll;
-    padding:0;
 }
 .locaties ul li {
-    margin:auto;
+    margin:0;
     margin-left:1em;
 }
 .locaties ul li img{
-    height:100%;
-    width:20em;
+    height:80%;
+    width:30em;
     object-fit:cover;
 }
 
 /*lessen style*/
 .lessen {
-    margin: auto;
     background-color:#f9fafa;
+    width:100%;
 }
+
 .lessen > ul{
     display:flex;
     overflow-x:scroll;
-    padding:0;
 }
 .lessen ul li {
-    margin:auto;
+    margin:0;
     margin-left:1em;
 }
 .lessen ul li img{
     height:80%;
-    width:20em;
+    width:30em;
     object-fit:cover;
 }
-
 /*leraren style*/
-main section:nth-of-type(4){
-    margin:auto;
-    
-}
-main section:nth-of-type(4) > ul{
+
+.leraren > ul{
     display:flex;
     overflow-x:scroll;
     padding:0;
 }
-main section:nth-of-type(4) ul:first-of-type li {
+.leraren ul li {
     margin:auto;
     margin-left:1em;
 }
-main section:nth-of-type(4) img {
+.leraren img {
     height:100%;
     width:20em;
     object-fit:cover;
 }
+
 /*blog style*/
-main section:nth-of-type(5){
+.blog {
     margin: auto;
     width: 100%;
 }
-main section:nth-of-type(5) article{
+.blog article{
     margin: auto;
     position:relative;
+    height: 30em;
     width:100%;
-    height:20em;
     padding:2em 0;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-main section:nth-of-type(5) article img{
+.blog article img{
     height: 100%;
     object-fit: cover;
 }
-main section:nth-of-type(5) h2 {
+.blog h2 {
     position: absolute;
-    left:50%;
-    top:20%;
+    left:30%;
+    top:10vh;
     font-size:3em;
     color:white;
     font-weight:600;
 }
-main section:nth-of-type(5) h3{
+.blog h3{
     position: absolute;
-    bottom: 40%;
+    bottom: 30%;
     font-size:1em;
     color:white;
-    text-align: center;
+    padding-left: 3em;
     font-weight: 600;
 
 }
-main section:nth-of-type(5) p {
+.blog p {
     position: absolute;
     padding: 1em;
-    top:25%;
+    top:50%;
+    padding-left: 12em;
     font-size: 0.8em;
     color: white;
 }
-main section:nth-of-type(5) button {
+.blog button {
     position: absolute;
     bottom:20%;
+    left:30%;
     border:none;
     padding: 0.975em 1.3125em 0.975em 1.3125em;
     font-family: sans-serif;
@@ -320,7 +336,11 @@ main section:nth-of-type(5) button {
     border-radius: 6.25em;
     background-color:#32b3ea;
 }
-
+@media (min-width:60em) {
+    .blog article {
+        height:80vh;
+    }
+}
 /*tweede pagina*/
 
 .new hr {
@@ -328,11 +348,17 @@ main section:nth-of-type(5) button {
     border-top:.1em solid #FAFAFA;
     
 }
+.new h2,
+.new p {
+    text-align: center;
+    padding: 1em;
+}
+
 
 /*eerste section h1*/
 .new main section:nth-of-type(1) > h1 {
     position:relative;
-    padding-top: 2em;
+    top:2vh;
     text-align: center;
     color:black;
     font-size:1.5em;
@@ -400,6 +426,7 @@ main section:nth-of-type(5) button {
 }
 .new main section:nth-of-type(3) article img{
     height:100%;
+    width:50em;
     object-fit: cover;
 }
 .new main section:nth-of-type(3) article:nth-child(2){
@@ -443,13 +470,23 @@ main section:nth-of-type(5) button {
     border-radius: 6.25em;
     background-color:#32b3ea;
 }
-
+@media (min-width:48em) {
+    .new main section:nth-of-type(1){
+        padding: 0;
+    }
+    .new main section:nth-of-type(3) article{
+        padding:1em;
+    }
+    .new p{
+        padding: 5vh 20vh;
+        line-height: 1.5em;
+    }
+}
 /*section introduction guidence*/
 
 .new main section:nth-of-type(8) {
     background-color: #f7fbfd;
     height: 50vh;
-    margin-left: 1em; margin-right: 1em;
 }
 .new main section:nth-of-type(8) p:nth-of-type(1){
     color:#32b3ea;
@@ -463,6 +500,7 @@ main section:nth-of-type(5) button {
 .new main section:nth-of-type(8) p:nth-of-type(2){
     color:#32b3ea;
     font-style: normal;
+    padding:2em;
 }
 .new main section:nth-of-type(8) p:nth-of-type(3){
     font-size: 1em;
@@ -479,18 +517,23 @@ main section:nth-of-type(5) button {
     font-weight: 100;
 }
 .new main section:nth-of-type(8) button{
-    bottom:20%;
+    position: absolute;
+    bottom:60vh; left: 50%;
+    transform:translate(-50%,-50%);
     border:none;
-    padding: 0.975em 1.3125em 0.975em 1.3125em;
+    padding: 1.775em 2.3125em 1.775em 2.3125em;
     font-family: sans-serif;
-    font-size: .8em;
+    font-size: .6em;
     text-transform: uppercase;
     letter-spacing: 0.078125em;
     color: white;
     border-radius: 6.25em;
+    cursor:pointer;
+    letter-spacing:.2em;
     background-color:#32b3ea;
 }
 .new main section:nth-of-type(9) h3{
+    padding: 2em;
     font-size: 1.2em;
     text-align: center;
     font-weight: 800;
@@ -499,17 +542,19 @@ main section:nth-of-type(5) button {
 .new main section:nth-of-type(4) ul,
 .new main section:nth-of-type(5) ul,
 .new main section:nth-of-type(6) ul {
-    margin-left:2em; margin-right: 2em;
+    margin-left:1em; margin-right: 1em;
     display:flex;
     overflow-x:scroll;
-    padding:0;
+    padding:1em;
 }
+
 .new main section:nth-of-type(4) ul li,
 .new main section:nth-of-type(5) ul li,
 .new main section:nth-of-type(6) ul li {
     margin:auto;
     margin-left:1em;
 }
+
 .new main section:nth-of-type(4) ul li img,
 .new main section:nth-of-type(5) ul li img,
 .new main section:nth-of-type(6) ul li img {
@@ -559,9 +604,10 @@ footer p, a, h5, h6 {
 /*algemeen style*/
 
 button:hover{
-    padding: 1.775em 3em 1.775em 3em;
-    transition-duration: 0.5s;
-    transition-delay: 1s;
+    padding: 1.775em 3.5em 1.775em 3.5em;
+    transition-duration: 1s;
+    transition-delay: .5s;
+    
 }
 h2{
     font-size: 1em;
@@ -583,7 +629,10 @@ a {
     text-decoration: none;
     color: black;
 }
-
+a:hover {
+    text-decoration: underline;
+    color:#32b3ea ;
+}
 p {
     font-style: italic;
     text-align: center;
