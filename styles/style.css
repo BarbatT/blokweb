@@ -218,15 +218,26 @@ nav ul li{
     background-color:#fc7170;
     letter-spacing:.2em;
     }
+ @keyframes try-yoga {
+ 0% {
+    transform:scale(1);
+  }
+  20% {
+    transform:scale(1.1);
+  }
+  50% {
+    transform:scale(1);
+  }
+}
+
+.introduction .animation:hover a {
+  animation-name:try-yoga;
+  animation-duration:2s;
+  background-color:#32b3ea;
+  color:white;
 }
 
 /*locaties style*/
-
-.locaties {
-    margin:auto;
-    width:100%;
-}
-
 .locaties > ul{
     display:flex;
     overflow-x:scroll;
@@ -244,7 +255,6 @@ nav ul li{
 /*lessen style*/
 .lessen {
     background-color:#f9fafa;
-    width:100%;
 }
 
 .lessen > ul{
