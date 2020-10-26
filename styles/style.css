@@ -34,7 +34,6 @@ nav img:last-of-type {
 
 h1{
     position:absolute;
-    top: 7vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:1.3em;
@@ -76,7 +75,7 @@ nav ul li{
 }
 .news p {
     position:absolute;
-    top:20vh; left: 50%;
+    top:20%; left: 50%;
     transform: translate(-50%, -50%);
     font-size:.8em;
     font-style: italic;
@@ -85,7 +84,7 @@ nav ul li{
 }
 .news h2{
     position:absolute;
-    top: 5vh;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .8em;
@@ -120,10 +119,10 @@ nav ul li{
         font-size:1.5em;
     }
     .news h2 {
-        top:10vh;
+        top:10%;
     }
     h1 {
-        top:20vh;
+        top:20%;
         font-size: 3em;
     }
     .news p{
@@ -185,6 +184,24 @@ nav ul li{
     background-color:#fc7170;
     letter-spacing:.2em;
 }
+@keyframes try-yoga {
+ 0% {
+    transform:scale(1);
+  }
+  20% {
+    transform:scale(1.1);
+  }
+  50% {
+    transform:scale(1);
+  }
+}
+
+.introduction .animation:hover a {
+  animation-name:try-yoga;
+  animation-duration:2s;
+  background-color:#32b3ea;
+  color:white;
+}
 
 /*media introduction*/
 
@@ -218,26 +235,10 @@ nav ul li{
     background-color:#fc7170;
     letter-spacing:.2em;
     }
- @keyframes try-yoga {
- 0% {
-    transform:scale(1);
-  }
-  20% {
-    transform:scale(1.1);
-  }
-  50% {
-    transform:scale(1);
-  }
-}
-
-.introduction .animation:hover a {
-  animation-name:try-yoga;
-  animation-duration:2s;
-  background-color:#32b3ea;
-  color:white;
 }
 
 /*locaties style*/
+
 .locaties > ul{
     display:flex;
     overflow-x:scroll;
@@ -309,7 +310,7 @@ nav ul li{
 .blog h2 {
     position: absolute;
     left:30%;
-    top:10vh;
+    top:10%;
     font-size:3em;
     color:white;
     font-weight:600;
@@ -347,7 +348,7 @@ nav ul li{
 }
 @media (min-width:60em) {
     .blog article {
-        height:80vh;
+        height:40em;
     }
 }
 /*tweede pagina*/
@@ -603,10 +604,11 @@ footer img {
     width:40%;
     margin-left: 1em;
 }
-footer p, a, h5, h6 {
-    text-align: left;
+footer p, h5, h6 {
+    text-align:center;
     margin-left:1em;
     font-style: normal;
+    padding: 2em 10em;
     
 }
 
