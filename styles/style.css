@@ -203,13 +203,13 @@ nav ul li{
   color:white;
 }
 
-/*media introduction*/
+/*media*/
 
 @media (min-width:60em) {
     
 .introduction,
-.new main section:nth-of-type(3) {
- padding: 5em 10em;
+.new main section:nth-of-type(3){
+ padding: 2em 2em;
  display:grid;
  grid-template-columns:1fr 1fr;
 }
@@ -242,6 +242,7 @@ nav ul li{
 .locaties > ul{
     display:flex;
     overflow-x:scroll;
+    padding: 0;
 }
 .locaties ul li {
     margin:0;
@@ -261,6 +262,7 @@ nav ul li{
 .lessen > ul{
     display:flex;
     overflow-x:scroll;
+    padding: 0;
 }
 .lessen ul li {
     margin:0;
@@ -350,7 +352,13 @@ nav ul li{
     .blog article {
         height:40em;
     }
+    .locaties,
+    .lessen,
+    .leraren {
+        padding: 2em 10em;
+    }
 }
+
 /*tweede pagina*/
 
 .new hr {
@@ -606,9 +614,8 @@ footer img {
 }
 footer p, h5, h6 {
     text-align:center;
-    margin-left:1em;
     font-style: normal;
-    padding: 2em 10em;
+    padding: 2em 1em;
     
 }
 
