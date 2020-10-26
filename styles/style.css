@@ -444,7 +444,6 @@ nav ul li{
 }
 .new main section:nth-of-type(3) article img{
     height:100%;
-    width:50em;
     object-fit: cover;
 }
 .new main section:nth-of-type(3) article:nth-child(2){
