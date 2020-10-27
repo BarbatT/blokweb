@@ -17,30 +17,44 @@ main{
 /*NAV style*/
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
     padding:0;
+}
+nav a {
+    font-style: normal;
+    font-size: 1em;
+}
+nav a:hover {
+    background-color: #fc7170;
+    font-size:1em;
 }
 nav img:first-of-type {
     padding-top:2em 0em;
     width: 50%;
 }
 nav > div {
- display: none;
+    margin-top:-100%;
+    order:3;
+    width: 100%;
+    
 }
 nav > div.show {
+    margin-top: 0;
+    background-color:#f7fbfd;
     pointer-events: all;
     display: block;
     opacity:1;
     pointer-events:all;
-    font-size: 1em;
+    font-size: .6em;
     text-transform: uppercase;
-    font-style: normal;
 }
-nav button {
+nav > button {
+    transition: none;
     border:none;
     background-color:white;
-    width:10em;
+    width:7em;
 }
 nav button:hover {
     padding:0;
@@ -56,6 +70,7 @@ nav button img {
 h1{
     position:absolute;
     left: 50%;
+    bottom: 40%;
     transform: translate(-50%, -50%);
     font-size:1.3em;
     color: white;
@@ -66,7 +81,12 @@ img{
     height:auto;
 }
 
-@media (min-width:48em){
+@media (min-width:52em){
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 nav button {
         display: none;
     }
@@ -74,8 +94,25 @@ nav img:first-of-type {
         width: 30%;
     }
 nav div {
+    height:5.5em;
+    background-color:#fc7170;
     margin:0;
     }
+nav a {
+        color: white;
+        font-size: 1em;
+        text-transform:uppercase;
+        padding:1em;
+    }
+    nav a:hover {
+        background-color:white;
+        border-radius: 1em 2em;
+    }
+}
+nav > div ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
 }
 /*News style*/
 
@@ -271,7 +308,7 @@ nav div {
 }
 .locaties ul li img{
     height: 100%;
-    width: 40em;
+    width: 30em;
     object-fit:cover;
 }
 
@@ -332,7 +369,7 @@ nav div {
 }
 .blog h2 {
     position: absolute;
-    left:30%;
+    left:20%;
     top:10%;
     font-size:3em;
     color:white;
@@ -340,29 +377,29 @@ nav div {
 }
 .blog h3{
     position: absolute;
-    bottom: 30%;
+    bottom: 40%;
     font-size:1em;
     color:white;
-    padding-left: 3em;
+    left: 25%;
     font-weight: 600;
 
 }
 .blog p {
     position: absolute;
     padding: 1em;
-    top:50%;
-    padding-left: 12em;
+    top:60%;
+    left: 25%;
     font-size: 0.8em;
     color: white;
 }
 .blog button {
     position: absolute;
     bottom:20%;
-    left:30%;
+    left:25%;
     border:none;
     padding: 0.975em 1.3125em 0.975em 1.3125em;
     font-family: sans-serif;
-    font-size: .6em;
+    font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.078125em;
     color: white;
@@ -372,6 +409,9 @@ nav div {
 @media (min-width:60em) {
     .blog article {
         height:40em;
+    }
+    .blog > button {
+        left:50%;
     }
     .locaties,
     .lessen,
