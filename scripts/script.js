@@ -1,3 +1,16 @@
+/*hamburger menu, inspiratie codepen oefening micro interaction*/
+
+
+const list = document.querySelector('nav > div');
+const button = document.querySelector('nav button');
+
+button.addEventListener('click', function(){
+    list.classList.toggle('show');
+});
+
+
+
+/*carousel w3school.com animated carousel*/
 var slideIndex = 0;
 carousel ();
 function carousel() {
