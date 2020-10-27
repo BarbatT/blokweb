@@ -158,7 +158,7 @@ nav > div ul {
 }
 .news button {
     position: absolute;
-    bottom: 7%; left: 50%;
+    bottom: 10%; left: 50%;
     transform:translate(-50%,-50%);
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
@@ -183,7 +183,6 @@ nav > div ul {
         top:20%;
     }
     .news h1 {
-        top:40%;
         font-size: 2.5em;
     }
     .news p{
