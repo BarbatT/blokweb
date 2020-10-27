@@ -14,7 +14,8 @@ main{
     font-family: sans-serif;
 }
 
-/*NAV style*/
+/*nav style*/
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +41,9 @@ nav > div {
     width: 100%;
     
 }
+
+/*hamburger menu*/
+
 nav > div.show {
     margin-top: 0;
     background-color:#f7fbfd;
@@ -66,20 +70,12 @@ nav button img {
     width: 10%;
     background-color: white;
 }
-
-h1{
-    position:absolute;
-    left: 50%;
-    bottom: 40%;
-    transform: translate(-50%, -50%);
-    font-size:1.3em;
-    color: white;
-    letter-spacing: 1.6px;    
-}
 img{
     width: 100%;
     height:auto;
 }
+
+/*media*/
 
 @media (min-width:52em){
     nav {
@@ -114,6 +110,7 @@ nav > div ul {
     justify-content: flex-end;
     font-size: 1.5em;
 }
+
 /*News style*/
 
 .news {
@@ -125,13 +122,22 @@ nav > div ul {
     justify-content: center;
     align-items: center;
 }
+.news h1{
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-size:1.3em;
+    color: white;
+    letter-spacing: 1.6px;    
+}
 .news img{
     height: 100%;
     object-fit: cover;
 }
 .news p {
     position:absolute;
-    top:20%; left: 50%;
+    top:40%; left: 50%;
     transform: translate(-50%, -50%);
     font-size:.8em;
     font-style: italic;
@@ -152,7 +158,7 @@ nav > div ul {
 }
 .news button {
     position: absolute;
-    top:30vh; left: 50%;
+    bottom: 10%; left: 50%;
     transform:translate(-50%,-50%);
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
@@ -172,13 +178,12 @@ nav > div ul {
 @media (min-width:48em) {
     .news {
         padding:0;
-        font-size:1.5em;
     }
     .news h2 {
-        top:10%;
-    }
-    h1 {
         top:20%;
+    }
+    .news h1 {
+        top:30%;
         font-size: 2.5em;
     }
     .news p{
@@ -187,11 +192,12 @@ nav > div ul {
         line-height: 1.5em;
     }
     .news img{
-        height: 50em;
+        height: 40em;
     }
     .news button {
-        top:80%;
-    }
+        font-size:.8em;
+        bottom: 20%;
+    }  
 }
 
 /*introduction */
@@ -241,6 +247,8 @@ nav > div ul {
     letter-spacing:.2em;
 }
 
+/*animatie*/
+
 @keyframes try-yoga {
  0% {
     transform:scale(1);
@@ -284,7 +292,7 @@ nav > div ul {
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 0.078125em;
     color: white;
@@ -295,12 +303,10 @@ nav > div ul {
 }
 
 /*locaties style*/
-
 .locaties > ul{
     display:flex;
     overflow-x:scroll;
     padding: 0;
-    flex-grow:1;
 }
 .locaties ul li {
     margin:0;
@@ -340,13 +346,30 @@ nav > div ul {
 }
 .leraren ul li {
     margin:auto;
-    margin-left:1em;
+    margin-left:2em;
 }
 .leraren img {
     height:100%;
     width:30em;
     object-fit:cover;
 }
+
+/*media*/
+
+@media (min-width:60em){
+    .locaties,
+    .lessen,
+    .leraren {
+        flex-grow: 1;
+    }
+    .locaties h2,
+    .lessen h2,
+    .leraren h2{
+        font-size: 2em;
+        border-bottom:.2em double #3bb3ea;
+    }
+}
+
 /*blog style*/
 .blog {
     margin: auto;
@@ -406,6 +429,9 @@ nav > div ul {
     border-radius: 6.25em;
     background-color:#32b3ea;
 }
+
+/*media*/
+
 @media (min-width:60em) {
     .blog article {
         height:40em;
