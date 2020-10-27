@@ -26,13 +26,10 @@ nav img:first-of-type {
     width: 50%;
 }
 nav > div {
-    margin-top:-100%;
-    transition: all 0.5s;
+ display: none;
 }
 nav > div.show {
-    max-height: 1000em;
     pointer-events: all;
-    margin-top:0;
     display: block;
     opacity:1;
     pointer-events:all;
@@ -76,9 +73,8 @@ nav button {
 nav img:first-of-type {
         width: 30%;
     }
-nav div ul {
-    margin-top: 0;
-    display: flex;
+nav div {
+    margin:0;
     }
 }
 /*News style*/
@@ -146,18 +142,18 @@ nav div ul {
     }
     h1 {
         top:20%;
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .news p{
-        top:50vh;
+        top:50%;
         font-size: 1em;
-        line-height: 2em;
+        line-height: 1.5em;
     }
     .news img{
         height: 50em;
     }
     .news button {
-        top:80vh;
+        top:80%;
     }
 }
 
@@ -207,6 +203,7 @@ nav div ul {
     background-color:#fc7170;
     letter-spacing:.2em;
 }
+
 @keyframes try-yoga {
  0% {
     transform:scale(1);
@@ -400,7 +397,7 @@ nav div ul {
 /*eerste section h1*/
 .new main section:nth-of-type(1) > h1 {
     position:relative;
-    top:2vh;
+    top:1em;
     text-align: center;
     color:black;
     font-size:1.5em;
@@ -471,7 +468,7 @@ nav div ul {
     object-fit: cover;
 }
 .new main section:nth-of-type(3) article:nth-child(2){
-    height:50vh;
+    height:30em;
     background-color:#FAFAFA;
 }
 .new main section:nth-of-type(3) article:nth-child(2) h3 {
@@ -519,7 +516,7 @@ nav div ul {
         padding:1em;
     }
     .new p{
-        padding: 5vh 20vh;
+        padding: 2em 5em;
         line-height: 1.5em;
     }
 }
@@ -527,7 +524,13 @@ nav div ul {
 
 .new main section:nth-of-type(8) {
     background-color: #f7fbfd;
-    height: 50vh;
+    height:25em;  
+}
+@media (min-width:60em) {
+  .new main section:nth-of-type(8) {
+    background-color: #f7fbfd;
+    height:35em;  
+}  
 }
 .new main section:nth-of-type(8) p:nth-of-type(1){
     color:#32b3ea;
@@ -536,7 +539,7 @@ nav div ul {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.6px;
-    padding-top:5vh;
+    padding-top:2em;
 }
 .new main section:nth-of-type(8) p:nth-of-type(2){
     color:#32b3ea;
@@ -559,7 +562,7 @@ nav div ul {
 }
 .new main section:nth-of-type(8) button{
     position: absolute;
-    bottom:60vh; left: 50%;
+    bottom:10%; left: 50%;
     transform:translate(-50%,-50%);
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
@@ -603,11 +606,11 @@ nav div ul {
     width:20em;
     object-fit:cover;
 }
-
 /*footer*/
 
 footer {
-    background-image: image(footer.img)
+    height: 40em;
+    border-top: .5em solid #fc7170;
 }
 footer section h2{
     font-size: 2em;
@@ -616,12 +619,20 @@ footer section h2{
 footer form {
     font-size: 1.5em;
     text-align: center;
-    padding-bottom: 2em;
 }
 input {
     height:5em;
-    width:30%;
+    width:80%;
     border: .03em solid #D3D3D3;
+}
+@media (min-width:60em) {
+    input {
+        width:30%;
+    }
+    footer p {
+      font-size:1em;
+        margin-left: 10em; margin-right: 10em;
+    }
 }
 ::placeholder{
     color:#D3D3D3;
@@ -632,14 +643,17 @@ hr{
     width: 90%;
 }
 footer img {
-    width:40%;
+    width:30%;
     margin-left: 1em;
 }
 footer p, h5, h6 {
     text-align:center;
     font-style: normal;
-    padding: 2em 1em;
+    padding:0 1em;
     
+}
+footer a {
+    padding-left: 5em;
 }
 
 /*algemeen style*/
