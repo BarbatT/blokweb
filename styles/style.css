@@ -761,7 +761,7 @@ button:hover{
     
 }
 button:focus {
-    color:red;
+    color: #fcf4a3;
 }
 h2{
     font-size: 1em;
@@ -786,6 +786,12 @@ a {
 a:hover {
     text-decoration: underline;
     color:#32b3ea ;
+}
+a:focus {
+    background-color:  #fcf4a3;
+}
+a:active{
+    background-color: #f6be00;
 }
 p {
     font-style: italic;
