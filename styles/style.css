@@ -303,55 +303,38 @@ nav > div ul {
     }
 }
 
-/*locaties style*/
-.locaties > ul{
-    display:flex;
-    overflow-x:scroll;
-    padding: 0;
-}
-.locaties ul li {
-    margin:0;
-    margin-left:2em;
-}
-.locaties ul li img{
-    height: 100%;
-    width: 30em;
-    object-fit:cover;
-}
-
-/*lessen style*/
+/*scroll style*/
 .lessen {
     background-color:#f9fafa;
 }
-
-.lessen > ul{
-    display: flex;
-    overflow-x: scroll;
-    padding: 0;
-}
-.lessen ul li {
-    margin:0;
-    margin-left:2em;
-}
-.lessen ul li img{
-    height:80%;
-    width:30em;
-    object-fit:cover;
-}
-/*leraren style*/
-
-.leraren > ul{
+.locaties ul,
+.lessen ul,
+.leraren ul {
+    margin-left:1em; margin-right: 1em;
     display:flex;
     overflow-x:scroll;
-    padding:0;
+    padding:1em;
 }
+
+.locaties ul li,
+.lessen ul li,
 .leraren ul li {
     margin:auto;
     margin-left:2em;
 }
-.leraren img {
-    height:100%;
+
+.locaties ul li img {
     width:30em;
+}
+.lessen ul li img,
+.leraren ul li img {
+    width:25em;
+}
+
+.locaties ul li img,
+.leraren ul li img,
+.lessen ul li img {
+    height:100%;
     object-fit:cover;
 }
 
@@ -369,6 +352,18 @@ nav > div ul {
         font-size: 2em;
         border-bottom:.2em double #3bb3ea;
     }
+    .locaties ul li img,
+    .leraren ul li img,
+    .lessen ul li img {
+    height:100%;
+    width:30em;
+    object-fit:cover;
+}
+    .locaties ul li a,
+    .leraren ul li a,
+    .lessen ul li a {
+    font-size: 1.2em;
+}
 }
 
 /*blog style*/
@@ -629,7 +624,7 @@ nav > div ul {
 }
 .new main section:nth-of-type(8) button{
     position: absolute;
-    bottom:10%; left: 50%;
+    bottom:9%; left: 50%;
     transform:translate(-50%,-50%);
     border:none;
     padding: 1.775em 2.3125em 1.775em 2.3125em;
@@ -653,7 +648,7 @@ nav > div ul {
 .new main section:nth-of-type(4) ul,
 .new main section:nth-of-type(5) ul,
 .new main section:nth-of-type(6) ul {
-    margin-left:1em; margin-right: 1em;
+    margin:auto;
     display:flex;
     overflow-x:scroll;
     padding:1em;
@@ -670,7 +665,7 @@ nav > div ul {
 .new main section:nth-of-type(5) ul li img,
 .new main section:nth-of-type(6) ul li img {
     height:100%;
-    width:20em;
+    width:30em;
     object-fit:cover;
 }
 /*footer*/
