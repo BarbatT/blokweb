@@ -11,6 +11,7 @@ button.addEventListener('click', function(){
 
 
 /*carousel w3school.com animated carousel*/
+
 var slideIndex = 0;
 carousel ();
 function carousel() {
@@ -25,6 +26,7 @@ function carousel() {
   setTimeout(carousel, 3000); // Change image every 3 seconds
 }
 
+/*https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/*/
 
 var scrollToTopBtn = document.getElementById("topScroll")
 var rootElement = document.documentElement
