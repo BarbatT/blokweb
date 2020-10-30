@@ -314,7 +314,7 @@ nav > div ul {
     margin-left:1em; margin-right: 1em;
     display:flex;
     overflow-x:scroll;
-    padding:1em;
+    padding:.5em;
 }
 
 .locaties ul li,
