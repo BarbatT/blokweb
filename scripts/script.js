@@ -24,3 +24,16 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 3000); // Change image every 3 seconds
 }
+
+
+var scrollToTopBtn = document.getElementById("topScroll")
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
