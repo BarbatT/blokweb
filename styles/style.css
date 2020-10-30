@@ -89,16 +89,16 @@ nav button {
         display: none;
     }
 nav img:first-of-type {
-        width: 30%;
+        width: 20%;
     }
 nav div {
-    height:4em;
+    height:3.5em;
     background-color:#fc7170;
     margin:0;
     }
 nav a {
         color: white;
-        font-size: 1em;
+        font-size: 0.8em;
         text-transform:uppercase;
         padding:1em;
     }
@@ -193,7 +193,7 @@ nav > div ul {
         line-height: 1.5em;
     }
     .news img{
-        height: 40em;
+        height: 30em;
     }
     .news button {
         font-size:.8em;
@@ -275,7 +275,7 @@ nav > div ul {
     
 .introduction,
 .new main section:nth-of-type(3){
- padding: 2em 2em;
+ padding: 1em 2em;
  display:grid;
  grid-template-columns:1fr 1fr;
 }
@@ -285,6 +285,7 @@ nav > div ul {
 .introduction img,
 .new main section:nth-of-type(3) {
     padding:1em 1em;
+    
     }
 .introduction button,
 .introduction a{
