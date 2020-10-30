@@ -67,7 +67,7 @@ slider van tekst en dingen toevoegen in winkelmandje (Ysabella)
 
 **Je focus:** -responsive-
 
-**Je opdracht:** -https://delightyoga.com/-
+**Je opdracht:** https://delightyoga.com/
 
 **Screenshot(s):**
 
