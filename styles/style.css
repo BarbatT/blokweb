@@ -97,7 +97,8 @@ nav button {
         display: none;
     }
 nav img:first-of-type {
-        width: 15%;
+        padding-top:1.2em;
+        width: 20%;
         
     }
 nav div {
