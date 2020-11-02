@@ -87,7 +87,7 @@ nav button img {
 
 /*media*/
 
-@media (min-width:52em){
+@media (min-width:60em){
 nav {
         flex-wrap: nowrap;
         margin: 0em 4em;
