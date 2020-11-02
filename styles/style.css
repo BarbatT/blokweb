@@ -105,7 +105,7 @@ nav div {
     display: flex;
     flex-direction: row-reverse;
     margin:0;
-    background-color:none;
+    background-color:white;
     }
 nav div ul {
         flex-direction: row;
