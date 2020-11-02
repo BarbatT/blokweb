@@ -11,6 +11,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. Sam
 4. codepen.io - oefeningen 
 5. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
+6. https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/
+7. hamburger menu, inspiratie codepen oefening micro interaction
+
+
+## Toevoegingen (week 9)
+Naar annleiding van de gekregen feedback heb ik twee microinteracties toegevoegd aan mijn website:
+
+- drop-down hamburger menu 
+- scroll to top button. 
 
 
 
